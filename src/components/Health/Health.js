@@ -28,8 +28,7 @@ const SVG_BG_COLOR = "#cccccc";
 
 export default function Health({ id, title, maxValue, value, name, width = "100%" }) {
   return (
-    <div className="health" 
-      id={id}
+    <div id={id}
       title={title}
       style={{
         width: width,
@@ -44,8 +43,7 @@ export default function Health({ id, title, maxValue, value, name, width = "100%
 
 const HealthText = ({name, value, maxValue}) => {
   return (
-  <span className="health-info" 
-    style={{
+  <span style={{
       fontFamily: 'Roboto',
       fontSize: '22px',
       color: '#555555'}}>
@@ -55,17 +53,14 @@ const HealthText = ({name, value, maxValue}) => {
 
 const HealthBar = ({value, maxValue}) => {
  return (
-  <div className="health-bar"
-    style={{
+  <div style={{
       display: 'grid',
       marginTop: `${SVG_MARGIN_TOP}px`}}>
-    <svg className="health-background-layer" 
-      style={{backgroundColor: SVG_BG_COLOR}}
+    <svg style={{backgroundColor: SVG_BG_COLOR}}
       width="100%" 
       height={`${SVG_HEIGHT}`}>
     </svg>
-    <svg className="health-foreground-layer" 
-      style={{
+    <svg style={{
         backgroundColor: SVG_FG_COLOR, 
         position: 'relative',    
         top: `-${SVG_HEIGHT}px`}}

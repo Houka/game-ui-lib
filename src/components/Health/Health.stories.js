@@ -5,7 +5,7 @@ import { action } from '@storybook/addon-actions';
 import Health from './Health';
 
 storiesOf('Health', module)
-  .add('Default healthbar', () => {
+  .add('Healthbar', () => {
   	const health = {
 	  id: "1",
 	  title: "health test",
