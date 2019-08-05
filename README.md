@@ -1,3 +1,7 @@
+## Purpose
+
+This project directory is used to contruct a view library of game ui elements that can be used in any web game.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -38,6 +42,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ### `npm run storybook`
 
 Runs storybook to display all the UI components in this library and test them.<br>
-Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
+Open [http://localhost:9009](http://localhost:9009) to view it in the browser.
 
 The page will reload if you make edits.<br>
